@@ -58,7 +58,7 @@ Watched the introductory lecture of the RS School course (JS/FE Stage#0 2025 Q2 
 ## English
 My teacher says it's B1, but I'm not entirely convinced. Either way, I'm working on it.
 
-_This line was added to make one more commit._
+
 
 
 
