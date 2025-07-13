@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Integra CV</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Prism.js CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet" />
+<!-- Prism.js JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Integra Limen</h1>
+    <p>Junior Front-End Developer</p>
+
+    <nav>
+      <ul>
+        <li><a href="#contacts">Contacts</a></li>
+        <li><a href="#about_me">About me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#code_example">Code Example</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#work_experience">Work Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#english">English</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+  <section class="photo">
+  <img src="best.dev.jpg" alt="Photo of Integra Limen">
+  </section>
+
+ <section class="contacts" id="contacts">
+    <h2>Contacts</h2>
+    <ul>
+      <li>Phone: +48XXXXXXXXX</li>
+      <li>Email: genius.in.progress@gmail.com</li>
+      <li>GitHub: <a href="https://github.com/integralimen">integralimen</a></li>
+    </ul>
+  </section>
+
+  <section class="about_me" id="about_me">
+     <h2>About me</h2>
+     <p>I'm a highly promising, creative and imaginative person, fascinated by the aesthetic of code and the very idea that you can talk to machines - and actually see how your commands work. I want to grow in the field of web development and have already completed three full Python tasks on exercism.org (which I'm pretty proud of, honestly).</p>
+  </section>
+
+  <section class="skills" id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>VS Code</li>
+      <li>GitHub</li>
+      <li>Markdown</li>
+      <li>Basic HTML</li>
+      <li>Basic CSS</li>
+      <li>Watching educational videos on YouTube</li>
+      <li>Reading smart books</li>
+      <li>Following instructions</li>
+      <li>Quickly grasp new concepts and tools</li>
+    </ul>
+  </section>
+
+  <section class="code_example" id="code_example">
+    <h2>Code Example</h2>
+<pre><code class="language-python">
+"""Functions for implementing the rules of the classic arcade game Pac-Man."""
+def eat_ghost(power_pellet_active, touching_ghost):
+    """Return True if Pac-Man can eat the ghost"""
+    return power_pellet_active and touching_ghost
+def score(touching_power_pellet, touching_dot):
+    """Return True if Pac-Man scored"""
+    return touching_power_pellet or touching_dot
+def lose(power_pellet_active, touching_ghost):
+    """Return True if Pac-Man loses (no pallet + ghost touch)."""
+    return touching_ghost and not power_pellet_active
+def win(has_eaten_all_dots, power_pellet_active, touching_ghost):
+    """Return True if all dots are eaten, i.e. player wins."""
+    return has_eaten_all_dots and (not touching_ghost or power_pellet_active)
+</code></pre>
+  </section>
+
+  <section class="projects" id="projects">
+  <h2>Projects</h2>
+  <ul>
+    <li><a href="https://github.com/integralimen/rsschool-cv/blob/gh-pages/cv.md" target="_blank">Markdown CV</a> — a personal page with code sample</li>
+  </ul>
+  </section>
+
+  <section class="work_experience" id="work_experience">
+    <h2>Work Experience</h2>
+    <p>No official work experience yet. Currently focused on learning web development and practicing through courses and small coding tasks.
+</p>
+  </section>
+
+  <section class="education" id="education">
+    <h2>Education</h2>
+    <p>Completed the HTML basics guide and studied several chapters of the JavaScript manual as part of the RS School JS/FE Stage#0 2025 Q2 course.</p>
+  </section>
+
+  <section class="english" id="english">
+    <h2>English</h2>
+    <p>B1 level, currently improving with a tutor. Confident in reading technical documentation and using translation tools when needed.</p>
+  </section>
+  </main>
+
+  <footer>
+  <p>
+    &copy; 2025 Integra Limen —
+    <a href="https://github.com/integralimen" target="_blank">GitHub</a> |
+    <a href="https://rs.school/courses/javascript-ru" target="_blank">https://rs.school/courses/javascript-ru</a>
+      <img src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/master/tasks/cv/rs-school-logo.svg" alt="RS School logo" height="30" style="margin-left: 10px;">
+  </p>
+</footer>
+
+</body>
+</html>
