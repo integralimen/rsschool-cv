@@ -2,6 +2,8 @@
 
 ![this is how legends start coding](best.dev.jpg)
 
+---
+
 ## Contacts
 * Phone: +48XXXXXXXXX
 * Email: genius.in.progress@gmail.com
